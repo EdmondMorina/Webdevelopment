@@ -49,8 +49,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/morin/OneDrive/Documenten/GitHub/webdevelopment",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -59,7 +61,8 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "preferences.general",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -108,6 +111,7 @@
       <workItem from="1792155361034" duration="2558000" />
       <workItem from="1792158592460" duration="402000" />
       <workItem from="1792179342427" duration="223000" />
+      <workItem from="1792313373460" duration="652000" />
     </task>
     <servers />
   </component>
