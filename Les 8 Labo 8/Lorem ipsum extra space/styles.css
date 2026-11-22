@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body { margin: 0; }
+
+/* De section vormt de kolom: exact 50% breed, met 10px lege ruimte errond */
+section {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+/* Het kind element krijgt de rand en de padding van 10px */
+section div {
+    border: 1px solid black;
+    padding: 10px;
+}

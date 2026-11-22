@@ -1,0 +1,66 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #444444;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    overflow: auto;          /* wrapper omsluit de zwevende kolommen */
+}
+
+header { text-align: center; }
+#imgHeader { max-width: 100%; }
+
+/* Twee kolommen: content 70%, aside de rest (via float) */
+#content {
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+}
+
+#elixirs {
+    float: right;
+    width: 30%;
+    padding: 25px 15px 0 15px;   /* tekst raakt de rand niet */
+    border: 1px solid #a7cece;
+    background: url("../images/background.gif") repeat-x top;
+    text-align: center;
+}
+
+h1, h2 { color: #007e7e; }
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+
+
+#elixirs h1 { color: #007e7e; }
+#elixirs h2:nth-of-type(1) { color: #e0a800; }
+#elixirs h2:nth-of-type(2) { color: #8b4513; }
+#elixirs h2:nth-of-type(3) { color: #222222; }
+
+#elixirs a:hover { background-color: brown; color: white; }
+
+
+.color {
+    margin: 30px;
+    padding: 20px 20px 20px 100px;
+    color: #444444;
+    background: #a7cece url("../images/cocktail.gif") no-repeat 10px 10px;
+    border: 2px dashed white;
+    font-style: italic;
+}
+
+/*Muziekstijl*/
+.cd { font-style: italic; }
+.artist { font-weight: bold; }
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 50%;          /* helft van de algemene lettergrootte */
+    padding-top: 20px;
+}
