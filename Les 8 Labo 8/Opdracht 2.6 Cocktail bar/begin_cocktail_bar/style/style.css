@@ -10,13 +10,12 @@ body {
 #wrapper {
     width: 95%;
     margin: 0 auto;
-    overflow: auto;          /* wrapper omsluit de zwevende kolommen */
+    overflow: auto;
 }
 
 header { text-align: center; }
 #imgHeader { max-width: 100%; }
 
-/* Twee kolommen: content 70%, aside de rest (via float) */
 #content {
     float: left;
     width: 70%;
@@ -26,7 +25,7 @@ header { text-align: center; }
 #elixirs {
     float: right;
     width: 30%;
-    padding: 25px 15px 0 15px;   /* tekst raakt de rand niet */
+    padding: 25px 15px 0 15px;
     border: 1px solid #a7cece;
     background: url("../images/background.gif") repeat-x top;
     text-align: center;
@@ -61,6 +60,6 @@ h2 { font-size: 130%; }
 footer {
     clear: both;
     text-align: center;
-    font-size: 50%;          /* helft van de algemene lettergrootte */
+    font-size: 50%;
     padding-top: 20px;
 }
