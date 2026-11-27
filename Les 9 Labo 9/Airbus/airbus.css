@@ -1,0 +1,143 @@
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top {
+    position: relative;
+    height: 200px;
+    background-image: url("images/bgsky3.jpg");
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+}
+
+.top-title {
+    margin: 0;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top-subtitle {
+    margin: 30px 0 0;
+    font-size: 240%;
+    font-weight: bold;
+}
+
+.top-plane {
+    position: absolute;
+    right: 250px;
+    bottom: 60px;
+    z-index: 1;
+}
+
+
+.news {
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+}
+
+.news h3 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 120%;
+}
+
+.news p {
+    color: #666666;
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.main {
+    float: left;
+    width: calc(75% - 10px);
+    margin-right: 10px;
+}
+
+
+.introduction {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.introduction p {
+    margin: 20px 30px 20px 0;
+    font-size: 80%;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin: 20px 20px 0 20px;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.gallery {
+    background-color: #999999;
+    padding: 0 20px 20px 0;
+}
+
+.foto {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px dotted #999999;
+}
+
+.foto img {
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+
+.bottom {
+    clear: both;
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+    font-size: 80%;
+}
+
+.bottom-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-left: 120px;
+}
+
+.bottom a {
+    color: white;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+.copyright {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 80%;
+}
